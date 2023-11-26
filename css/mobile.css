@@ -1,11 +1,19 @@
 @media (max-width:490px) {
+
+    /* header */
     header{ 
         padding-inline: 20px;
     }
 }
 
 @media (max-width:380px) {
+
+    /* header */
     header{
         padding-inline: 5px;
     }
+
+    /* index page */
+    /* section1 */
+    .indexsection1_div{ text-align: center;}
 }

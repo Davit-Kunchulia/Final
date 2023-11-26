@@ -1,9 +1,23 @@
 @media (max-width:750px) {
+
+    /* header */
     .fa-bars {
         display: block;
     }
 
     .header_nav {
         display: none;
+    }
+}
+
+@media (max-width:600px) {
+    /* indexpage */
+    /* section1 */
+    .indexsection1{height: 304px; }
+    .indexsection1_div{ row-gap: 32px;}
+
+    .indexsection1_h{
+        font-size: 32px;
+        line-height: 40px;
     }
 }

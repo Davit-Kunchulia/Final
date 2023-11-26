@@ -1,4 +1,6 @@
 @media (max-width:1200px){
+
+    /* header */
     header{
         padding-inline: 32px;
     }
@@ -9,6 +11,8 @@
 }
 
 @media (max-width:1000px){
+
+    /* header */
     header{
         padding-inline: 24px;
     }
