@@ -1,3 +1,9 @@
 @media (max-width:750px) {
-    
+    .fa-bars {
+        display: block;
+    }
+
+    .header_nav {
+        display: none;
+    }
 }
