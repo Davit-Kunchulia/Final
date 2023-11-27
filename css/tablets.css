@@ -11,13 +11,24 @@
 }
 
 @media (max-width:600px) {
+
     /* indexpage */
     /* section1 */
-    .indexsection1{height: 304px; }
-    .indexsection1_div{ row-gap: 32px;}
+    .indexsection1 {
+        height: 304px;
+    }
 
-    .indexsection1_h{
+    .indexsection1_div {
+        row-gap: 32px;
+    }
+
+    .indexsection1_h {
         font-size: 32px;
         line-height: 40px;
+    }
+
+    /* section2 */
+    .indexsection2_figc{
+        padding: 5px 0;
     }
 }

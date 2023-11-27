@@ -29,4 +29,15 @@
         line-height: 39px;
     }
     
+    /* index page */
+    /* section2 */
+    .indexsection2{ height: 588px;}
+    .indexsection2_img{
+        width: 180px;
+    }
+    .indexsection2_figc{
+        font-size: 16px;
+        line-height: 24px;
+        width: 141px;
+    }
 }

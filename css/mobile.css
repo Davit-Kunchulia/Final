@@ -4,6 +4,32 @@
     header{ 
         padding-inline: 20px;
     }
+
+    /* index page */
+    /* section2 */
+    .indexsection2{height: 476px;}
+    .indexsection2_figc{
+        padding: 3px 0;
+    }
+
+}
+
+@media (max-width:400px){
+
+    /* index page */
+    /* section2 */
+    .indexsection2{ height: 400px;
+    }
+    .indexsection2_img{
+        width: 150px;
+        
+    }
+    .indexsection2_figc{
+        font-size: 12px;
+        line-height: 20px;
+        
+        width: 120px;
+    }
 }
 
 @media (max-width:380px) {
@@ -16,4 +42,21 @@
     /* index page */
     /* section1 */
     .indexsection1_div{ text-align: center;}
+}
+
+
+@media (max-width:340px){
+
+    /* index page */
+    /* section2 */
+    .indexsection2{ height: 300px;
+    }
+    .indexsection2_img{
+        width: 130px;
+    }
+    .indexsection2_figc{
+        font-size: 10px;
+        line-height: 18px;
+        width: 100px;
+    }
 }
