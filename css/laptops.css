@@ -14,7 +14,7 @@
 
     /* header */
     header{
-        padding-inline: 24px;
+        padding: 5px 24px;
     }
     .logo{
         flex-direction: column;
