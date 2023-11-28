@@ -22,13 +22,7 @@ header {
 
 }
 
-.fa-xmark {
-    color: white;
-    font-size: 32px;
-    display: none;
-}
-
-.fa-bars {
+.fa-bars,.fa-xmark {
     color: white;
     font-size: 32px;
     display: none;
@@ -196,9 +190,16 @@ header {
     line-height: 26px;
     word-wrap: break-word;
     background-color: white;
+    border: none;
     border-radius: 8px;
     width: 200px;
     text-align: center;
     padding: 8px 0;
     position: absolute;
+}
+
+.indexsection2_figc:hover {
+    cursor: pointer;
+    text-shadow: 0 0 20px orange;
+    box-shadow: 1px 2px 3px black;
 }

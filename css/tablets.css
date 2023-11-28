@@ -6,7 +6,22 @@
     }
 
     .header_nav {
-        display: none;
+        position: fixed;
+        background-color: #B53B1B;
+        top: 88px;
+        left: -100%;
+
+    }
+
+    .header_ul {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+        padding: 25px 81px;
+    }
+
+    .show {
+        left: 0;
     }
 }
 
@@ -28,7 +43,7 @@
     }
 
     /* section2 */
-    .indexsection2_figc{
+    .indexsection2_figc {
         padding: 5px 0;
     }
 }
