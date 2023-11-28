@@ -22,7 +22,8 @@ header {
 
 }
 
-.fa-bars,.fa-xmark {
+.fa-bars,
+.fa-xmark {
     color: white;
     font-size: 32px;
     display: none;
@@ -131,7 +132,8 @@ header {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     line-height: 48px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    text-shadow: 3px 3px 2px black;
 }
 
 .indexsection1_b {
@@ -201,5 +203,88 @@ header {
 .indexsection2_figc:hover {
     cursor: pointer;
     text-shadow: 0 0 20px orange;
+    box-shadow: 1px 2px 3px black;
+}
+
+/* section3 */
+.indexsection3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    background-color: #402101;
+    padding: 120px 0;
+    overflow-x: scroll;
+}
+
+.indexsection3_h {
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.indexsection3_div {
+    display: flex;
+    column-gap: 24px;
+    flex: 1 0 282px;
+}
+
+.indexsection3_figure {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    
+}
+
+.indexsection3_figure:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px white;
+}
+
+.indexsection3_figc {
+    color: #B53B1B;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.indexsection3_figurediv {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;}
+
+
+.indexsection3_p {
+    color: #B53B1B;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 19px;
+    word-wrap: break-word
+}
+
+.indexsection3_b {
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    background-color: #B53B1B;
+    padding: 6px 19px;
+    border-radius: 8px;
+}
+
+.indexsection3_b:hover{
+    cursor: pointer;
+    text-shadow: 0 0 20px white;
     box-shadow: 1px 2px 3px black;
 }
