@@ -46,4 +46,22 @@
     .indexsection2_figc {
         padding: 5px 0;
     }
+
+    /* section4 */
+    .indexsection4{
+        height: 400px;
+    }
+
+    .indexsection4_h{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .form1_input{
+        padding-right: 98px;
+    }
+    .form1_b{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 20px;
+    }
 }

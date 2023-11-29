@@ -215,6 +215,7 @@ header {
     background-color: #402101;
     padding: 120px 0;
     overflow-x: scroll;
+
 }
 
 .indexsection3_h {
@@ -224,6 +225,7 @@ header {
     font-weight: 700;
     line-height: 48px;
     word-wrap: break-word;
+
 }
 
 .indexsection3_div {
@@ -239,12 +241,17 @@ header {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    
+
 }
 
-.indexsection3_figure:hover{
+.indexsection3_figure:hover {
     cursor: pointer;
     box-shadow: 5px 5px 20px white;
+}
+
+
+.indexsection3_img {
+    object-fit: cover;
 }
 
 .indexsection3_figc {
@@ -259,7 +266,8 @@ header {
 .indexsection3_figurediv {
     display: flex;
     justify-content: space-between;
-    align-items: end;}
+    align-items: end;
+}
 
 
 .indexsection3_p {
@@ -283,8 +291,75 @@ header {
     border-radius: 8px;
 }
 
-.indexsection3_b:hover{
+.indexsection3_b:hover {
     cursor: pointer;
     text-shadow: 0 0 20px white;
+    box-shadow: 1px 2px 3px black;
+}
+
+/* section4 */
+.indexsection4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+
+    background-image: url(../img/Rectangle\ 98.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.indexsection4_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 56px;
+}
+
+.indexsection4_h {
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-shadow: 0 5px 5px black;
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+}
+
+.form1_input {
+    padding: 19px 208px 18px 16px;
+    background-color: #D5906E;
+    border: 1px solid white;
+    border-radius: 10px 0 0 10px;
+}
+
+#EMAIL::placeholder {
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.form1_b {
+    color: #402101;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding: 17px 25px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.form1_b:hover {
+    cursor: pointer;
+    text-shadow: 0 0 20px orange;
     box-shadow: 1px 2px 3px black;
 }
