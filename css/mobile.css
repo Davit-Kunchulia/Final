@@ -19,6 +19,27 @@
     .indexsection4 {
         height: 320px;
     }
+
+    /* about page */
+    /* section1 */
+    .aboutsection1 {
+        height: 400px;
+    }
+
+    .aboutsection1_h {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .form2_input {
+        padding-right: 70px;
+    }
+
+    .form2_b {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px 20px;
+    }
 }
 
 @media (max-width:415px){
@@ -38,7 +59,6 @@
     }
 
     .form1_b {
-        /* font-size: 15px; */
         line-height: 24px;
         padding: 7px 10px;
     }
@@ -62,7 +82,26 @@
         width: 120px;
     }
 
-    
+    /* about page */
+    /* section1 */
+    .aboutsection1 {
+        height: 400px;
+    }
+
+    .aboutsection1_h {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .form2_input {
+        padding-right: 20px;
+    }
+
+    .form2_b {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px 5px;
+    }
 }
 
 @media (max-width:380px) {

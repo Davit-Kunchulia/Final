@@ -106,6 +106,8 @@ header {
     text-shadow: 0 0 20px white;
 }
 
+
+
 /* index page */
 /* section1 */
 .indexsection1 {
@@ -361,9 +363,81 @@ header {
 .form1_b:hover {
     cursor: pointer;
     text-shadow: 0 0 20px orange;
-    box-shadow: 1px 2px 3px black;
+    box-shadow: 3px 0 3px black;
 }
 
+
+
+
+/* about page */
+/* section1 */
+.aboutsection1 {
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/Rectangle\ 107.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutsection1_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 47px;
+}
+
+.aboutsection1_h {
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+    text-shadow: 0 5px 5px black;
+}
+
+.form2 {
+    display: flex;
+    align-items: center;
+}
+
+.form2_input {
+    padding: 19px 208px 18px 16px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px 0 0 10px;
+}
+
+#SEARCH::placeholder {
+    color: rgba(213, 144, 110, 0.52);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.form2_b {
+    color: white;
+    background-color: #B53B1B;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding: 14px 53px;
+    border: 2px solid white;
+    box-shadow: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.form2_b:hover {
+    cursor: pointer;
+    text-shadow: 0 0 20px orange;
+    box-shadow: 3px 0 3px black;
+}
 
 
 

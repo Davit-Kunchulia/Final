@@ -97,4 +97,26 @@
         line-height: 24px;
         padding: 16px 20px;
     }
+
+
+    /* about page */
+    /* section1 */
+    .aboutsection1 {
+        height: 500px;
+    }
+
+    .aboutsection1_h {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .form2_input {
+        padding-right: 70px;
+    }
+
+    .form2_b {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px 20px;
+    }
 }
