@@ -53,6 +53,34 @@
     .info {
         display: none;
     }
+
+    /* about page */
+    /* section2 */
+
+    .aboutsection2_article{
+        align-items: center;
+    }
+    .aboutsection2_h{
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .aboutsection2_b{
+        font-size: 16px;
+        padding: 3px 5px;
+    }
+    .block_divs{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .block_img{
+        width: 400px;
+    }
+
+    .divs,.divs_page{
+        width: 40px;
+        height: 40px;
+    }
 }
 
 

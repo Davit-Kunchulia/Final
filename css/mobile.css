@@ -40,6 +40,21 @@
         line-height: 24px;
         padding: 15px 20px;
     }
+
+    /* section2 */
+    .aboutsection2_h{
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width:460px){
+
+    /* about page */
+    /* section2 */
+    .block_img{
+        width: 250px;
+    }
 }
 
 @media (max-width:415px){
@@ -135,5 +150,18 @@
         font-size: 10px;
         line-height: 18px;
         width: 100px;
+    }
+
+    /* about page */
+    /* section2 */
+    .aboutsection2_h{
+        font-size: 12px;
+    }
+    .divs,.divs_page{
+        width: 30px;
+        height: 30px;
+    }
+    .div_p{
+        font-size: 11px;
     }
 }
