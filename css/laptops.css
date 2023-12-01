@@ -21,6 +21,12 @@
     header{
         padding-inline: 32px;
     }
+
+    /* contact page */
+    /* section1 */
+    .contactsection1{
+        padding-left: 32px;
+    }
 }
 
 @media (max-width:1030px){
@@ -28,6 +34,18 @@
     /* footer */
     footer{
         padding-inline: 32px;
+    }
+
+    /* about page */
+    /* section1 */
+    .aboutsection1{
+        background-image: url(../img/cover1\ \(1\).png);
+    }
+
+    /* contact page */
+    /* section1 */
+    .contactsection1{
+        background-image: url(../img/cover1\ \(2\).png);
     }
 }
 
@@ -66,5 +84,12 @@
     /* section2 */
     .block_img{
         width: 304px;
+    }
+
+    /* contact page */
+    /* section1 */
+    .contactsection1{
+        padding-right: 222px;
+        padding-left: 24px;
     }
 }

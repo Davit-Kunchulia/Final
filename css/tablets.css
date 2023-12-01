@@ -24,6 +24,13 @@
         left: 0;
     }
 
+
+    /* index page */
+    /* section1 */
+    .indexsection1{
+        background-image: url(../img/Rectangle\ 106.png);
+    }
+
     /* footer */
     footer {
         padding-inline: 24px;
@@ -146,5 +153,30 @@
         font-size: 16px;
         line-height: 24px;
         padding: 15px 20px;
+    }
+
+
+    /* contact page */
+    /* section1 */
+
+    .contactsection1{
+        display: flex;
+        align-items: center;
+    }
+    .contactsection1_article{
+        width: 432px;
+        padding-inline: 20px;
+    }
+    
+    .contactsection1_h{
+        font-size: 32px;
+    }
+
+    #NAME{
+        width: 160px;
+    }
+
+    #MESSAGE{
+        width: 392px;
     }
 }
