@@ -739,6 +739,62 @@ header {
 }
 
 
+/* section2 */
+.contactsection2 {
+    background-color: #EA904F;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+
+.contactsection2_h {
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+    text-shadow: 0 4px 3px black;
+}
+
+.main_div {
+    display: flex;
+    align-items: center;
+    column-gap: 94px;
+}
+
+.contactsection2_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 72px;
+}
+
+.contact_info_div {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.contactsection2_img:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 20px white;
+}
+
+.contact_info {
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.map {
+    width: 560px;
+    height: 320px;
+}
 
 
 

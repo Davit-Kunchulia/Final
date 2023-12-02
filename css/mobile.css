@@ -96,6 +96,14 @@
     height: 80px;
    }
 
+   /* section2 */
+   .contactsection2_div{
+    column-gap: 50px;
+   }
+   .map{
+    height: 150px;
+    width: 285px;
+   }
 }
 
 @media (max-width:415px){

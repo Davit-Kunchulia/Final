@@ -92,4 +92,20 @@
         padding-right: 222px;
         padding-left: 24px;
     }
+
+    /* section2 */
+    .main_div{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .contactsection2_div{
+        flex-direction: row;
+        column-gap: 72px;
+    }
+    .contact_info{
+        display: none;
+    }
+    .map{
+        width: 696px;
+    }
 }
