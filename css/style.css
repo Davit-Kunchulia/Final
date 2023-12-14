@@ -463,8 +463,8 @@ header {
 .aboutsection2_article {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    /* column-gap: 620px; */
+    align-items: center;
+    width: 100%;
 }
 
 .aboutsection2_h {
